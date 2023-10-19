@@ -1,0 +1,21 @@
+[
+    {
+        "name":"Codex Nécron",
+        "img":"./public/images/codex_necron.jpg",
+        "price":"40",
+        "description":"Pour l'armée nécron."
+    },
+    {
+        "name":"Codex Orks",
+        "img":"./public/images/codex_orks.jpg",
+        "price":"40",
+        "description":"Pour l'armée Orks."
+    },
+    {
+        "name":"Codex Chaos",
+        "img":"./public/images/codex_chaos.jpg",
+        "price":"40",
+        "description":"Pour l'armée Chaos."
+    }
+    
+]

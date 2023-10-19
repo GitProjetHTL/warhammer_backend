@@ -1,0 +1,102 @@
+[
+    {
+        "name":"État-major Fulgurant",
+        "img":"stormcast_figure_1.png",
+        "price":"100",
+        "description":"Les Éternels de l'Orage sont les plus puissants guerriers de la Grande Alliance de l'Ordre. Ces nobles guerriers forgés en Azyr par la main de Sigmar frappent dans les royaumes pour les reconquérir. Chevauchant des éclairs coruscants, ils arrivent sur le champ de bataille dans un coup de tonnerre assourdissant. Les forces des Éternels de l'Orage sont le grand marteau qui écrase les forces du Chaos, de la Mort et de la Destruction, et le bouclier qui protège les citoyens des Royaumes Mortels d'une myriade de maux. Équipés d'armes bénies d'énergie céleste, ces demi-dieux immortels déchaînent une fureur illimitée.",
+        "type":"alliance"
+    },
+    {
+        "name":"Vincitors",
+        "img":"stormcast_figure_2.png",
+        "price":"50",
+        "description":"Les Vincitors sont des experts du maniement des épées longues, versés dans l'art de contre-charger les unités ennemies pilonnées par les Libérators et les Vindictors. Leurs épées longues célestes sont serties d'un fragment de pierre du royaume céleste, permettant au guerrier de méditer jusqu'à ne faire plus qu'un avec leur lame.
+
+        En effet, ils sont si accordés à leurs armes qu'ils peuvent recevoir des visions parcellaires du celestium, augmentant encore leurs prouesses martiales, et leur permettant de feinter et parer les attaques avant d'asséner des coups fatals d'une précision surnaturelle.",
+        "type":"alliance"
+    },
+    {
+        "name":"Vigilors",
+        "img":"stormcast_figure_3.png",
+        "price":"50",
+        "description":"Les Vigilors sont des éclaireurs en armure fulgurante. Ces rangers évoluent loin en avant du gros des forces d'Éternels de l'Orage, et fonctionnent d'une façon similaire à la chambre d'Avant-garde pour les Osts nouvellement forgés et composés majoriatirement de guerriers fulgurants.
+
+        Comme leurs frères Justicars, les Vigilors sont d'excellents tireurs. Leurs arcs fulgurivoques compacts transpercent facilement les armures légères. Chaque volée est accompagnée d'éclairs colorés, marquant les ennemis malchanceux pour que les alliés plus lourdement armés les prennent pour cibles.",
+        "type":"alliance"
+    },
+    {
+        "name":"Seigneur du Chaos sur Monture Démoniaque",
+        "img":"chaos_figure_1.png",
+        "price":"50",
+        "description":"Les Seigneurs du Chaos sont des légendes vivantes qui ont suivi le Sentier de la Gloire jusqu'à se tenir sur le seuil de l'apothéose… ou de la damnation. Ceux qui chevauchent des montures démoniaques au combat sont particulièrement craints. Pas uniquement pour la puissance surnaturelle de leur étalon infernal, mais pour les terribles actes qui leur ont valu de recevoir une telle bête en récompense. Ces champions dirigent des bandes de cavalerie fracassantes. Ils mènent leurs frères montés au combat en rugissant des serments aux Dieux Sombre.",
+        "type":"chaos"
+    },
+    {
+        "name":"Guerriers du Chaos",
+        "img":"chaos_figure_2.png",
+        "price":"50",
+        "description":"Les Guerriers du Chaos sont le fléau des Royaumes Mortels, engoncés dans l'acier infernal et bouffis de sombres bénédictions. Des légions entières de ces tueurs en armure marchent au combat pour mériter la faveur de leurs dieux, liés par le sang au service d'un puissant seigneur de guerre. Chaque Guerrier du Chaos vaut plusieurs mortels inférieurs, et tous aspirent à devenir encore plus puissants.",
+        "type":"chaos"
+    },
+    {
+        "name":"Chevaliers du Chaos",
+        "img":"chaos_figure_3.png",
+        "price":"50",
+        "description":"Les Chevaliers du Chaos chevauchent à l'avant des armées de la ruine, et leur arrivée annonce la mort d'empires entiers. Ces terrifiants champions chargent au cœur des batailles les plus mortelles sans une once de peur, en quête de la gloire qui leur revient. Empalant leurs ennemis sur des lances ensorcelées et piétinant des formations sous leurs sabots frénétiques, les Chevaliers du Chaos sèment la destruction dans une avalanche de sang et d'acier.",
+        "type":"chaos"
+    },
+    {
+        "name":"Necropolis Stalkers",
+        "img":"death_figure_1.png",
+        "price":"50",
+        "description":"Horreurs à quatre bras nanties de l'essence collective de maîtres duellistes, les Necropolis Stalkers bondissent et virevoltent dans la mêlée avec une célérité terrifiante, changeant de posture et de forme en un éclair tout en démembrant leurs adversaires.
+
+        Quand les Necropolis Stalkers combattent, ils ont le choix entre quatre aspects – Aspect d’Estocade, Aspect de Parade, Aspect Destructeur ou Aspect de Précision, chacun adapté à une facette du combat. Une figurine sur trois peut remplacer sa lame spirituelle par des fauchons d'effroi, pour rendre ces duellistes encore plus redoutables.",
+        "type":"death"
+    },
+    {
+        "name":"Arch-Kavalos Zandtos",
+        "img":"death_figure_2.png",
+        "price":"50",
+        "description":"Fermement convaincu que les vivants n'ont rien à faire en Shyish, Zandtos se sert de ses armées comme de forces d'extermination pour éradiquer systématiquement tout ce qui respire dans le Royaume.
+
+        Armé de la dévastatrice Sombre Lance, Zandtos est absolument dévastateur quand il charge. Sa haine brûlante des vivants le rend encore plus meurtrier et pousse son entourage à redoubler d'ardeur. Infligez la vengeance de Nagash à quiconque ose le défier.",
+        "type":"death"
+    },
+    {
+        "name":"Mortek Guard",
+        "img":"death_figure_3.png",
+        "price":"50",
+        "description":"Les Mortek Guards sont des constructs d'âmes créés pour dominer le champ de bataille. Équipés d'armes de nadirite voleuses de vie et vêtus d'armures osseuses quasi impénétrables, ils réduisent l'ennemi en poussière sous leur pas implacable.
+
+        La Mortek Guard peut être armée au choix de lames de nadirite ou de lances de nadirite, des armes mortelles qui dérobent la force vitale de l'ennemi. Le kit propose aussi en option de quoi inclure un porte-étendard Necrophoros pour mener la charge, et un Mortrek Hekatos pour coordonner le mur de boucliers et protéger l'unité contre les attaques adverses.
+        ",
+        "type":"death"
+    },
+    {
+        "name":"Megaboss",
+        "img":"ork_figure_1.png",
+        "price":"50",
+        "description":"Les plus gros  et par conséquent les meilleurs  des Ironjawz sont les Megabosses orruks, qui unissent plus ou moins les clans Ironjaw pour aller défoncer et piétiner tout ce qui est à portée. Plus un orruk remporte de combats, plus il forcit; les Megaboss sont massifs comme on l'imagine, et ils ne demandent qu'à exploiter leur musculature pour casser la tête de tout ce qui leur fait obstacle. Bardés de pièces d'armure récupérées sur les ennemis vaincus, hérissés de trophées et munis d'armes grossières et meurtrières, les Megaboss orruk font réellement peur à voir, et la perspective de les affronter est terrifiante.",
+        "type":"destruction"
+    },
+    {
+        "name":"Éventreurs",
+        "img":"ork_figure_2.png",
+        "price":"50",
+        "description":"Brandissant tout un assortiment de lances barbelées et d'armes de poing acérées, les Éventreurs forment l'assise de toute armée de Kruelboyz. Ils marchent au combat en formant des phalanges irrégulières, dont les targeffrois se dessinent dans le brouillard magique suscité par les Chamanes Vasomanciens, pour transir de peur la piétaille adverse et les bêtes impressionnables avant même que les lignes de bataille entrent en contact.
+
+        Au combat, ils submergent leurs adversaires sous un déferlement de coups de taille et d'estoc de lames enduites d'immondes mixtures et autres toxines naturelles, mais ils préfèrent semer l'effroi dans le cœur de l'ennemi par des cris de guerre troublants et des subterfuges retors, afin de se soustraire au combat à leur gré.",
+        "type":"destruction"
+    },
+    {
+        "name":"Embrocheurs",
+        "img":"ork_figure_3.png",
+        "price":"50",
+        "description":"Les Embrocheurs sont réputés pour se battre de loin avec leurs arbalètes rudimentaires. Leurs camarades qui combattent en mêlée se gaussent de cette veulerie, mais ces Kruelboyz retors n'en ont cure. Leur grand plaisir est d'empaler leurs ennemis avec des carreaux de deux pieds de long, et de regarder leurs victimes crier et se tordre de douleur pendant qu'ils rechargent pour porter le coup de grâce.
+
+        Ces veneurs meurtriers maîtrisent l'art du combat à distance, et abattent leurs ennemis impunément. Réputés pour leur attitude mesquine, ils enduisent leurs traits de poisons et venins tout en s'assurant que chaque pointe se brisera à l'impact, de sorte que des éclats de métal souillé fassent suppurer les plaies infligées.",
+        "type":"destruction"
+    }
+    
+]

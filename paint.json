@@ -1,0 +1,21 @@
+[
+    {
+        "name":"Set de peinture stormcast éternal",
+        "img":"set-peinture-1.jpg",
+        "price":"30",
+        "description":"Set de peinture pour stormcast éternal."
+    },
+    {
+        "name":"Set de peinture ork",
+        "img":"set-peinture-2.jpg",
+        "price":"30",
+        "description":"Set de peinture pour ork."
+    },
+    {
+        "name":"Set de peinture complet",
+        "img":"set-peinture-3.jpg",
+        "price":"30",
+        "description":"Set de peinture pour bien débuter."
+    }
+    
+]

@@ -9,10 +9,11 @@ var wargameRouter = require('./routes/wargame');
 var paintRouter = require('./routes/paint');
 var figureRouter = require('./routes/figure');
 
-var app = express();
-
 const cors = require('cors');
 app.use(cors());
+
+var app = express();
+
 
 app.use(logger('dev'));
 app.use(express.json());

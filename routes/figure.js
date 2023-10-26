@@ -9,7 +9,7 @@ const Figure = require("../models/figures")
 router.get("/", (req, res) => {
   // Trouver les cards aimés par l'utilisateur spécifié
   Figure.find().then((data) => {
-    res.json({ result: true, data });
+    res.json({result: true, data});
   });
 });
 

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Définir le lien de connexion MongoDB
-const mongoURI = 'mongodb+srv://admin:1234@cluster0.asciq32.mongodb.net/warhammer';
+const mongoURI = process.env.MONGODB_URI;
 
 // Se connecter à MongoDB
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })

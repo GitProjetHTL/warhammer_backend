@@ -3,16 +3,22 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+
+// ... le reste de votre configuration du serveur ...
+
 var indexRouter = require('./routes/index');
 var userRouter = require('./routes/user');
 var wargameRouter = require('./routes/wargame');
 var paintRouter = require('./routes/paint');
 var figureRouter = require('./routes/figure');
 
+
+var app = express();
+
 const cors = require('cors');
 app.use(cors());
 
-var app = express();
+
 
 
 app.use(logger('dev'));

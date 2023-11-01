@@ -13,6 +13,12 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/:type", (req, res) => {
+  // Trouver les cards aimés par l'utilisateur spécifié
+  Figure.find({type:req.params.type}).then((data) => {
+    res.json({ result: true, data });
+  });
+});
 //
 
 module.exports = router;

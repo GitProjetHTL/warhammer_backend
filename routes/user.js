@@ -95,103 +95,33 @@ router.put("/update", (req, res) => {
   });
 });
 
-// //***************afficher toutes les émotions sur la HomeScreen
-// router.get("/allEmotions", (req, res) => {
-//   // Trouver les cards aimés par l'utilisateur spécifié
-//   Emotion.find().then((data) => {
-//     res.json({ result: true, data });
-//   });
-// });
+//*********supprimer le compte d'un User******route Delete
+router.delete("/", (req, res) => {
+  //1. verifier si le token existe
+  if (!checkBody(req.body, ["token", "username"])) {
+    res.json({ result: false, error: "Cant`t delete your account" });
+    return;
+  }
 
-// //
+  //2. rechercher si le token == token donnée
+  User.findOne({ token: req.body.token }).then((user) => {
+    if (user === null) {
+      res.json({ result: false, error: "User not found" });
+      return;
+    }
 
+    //3. supprimer par rapport a son token
+    User.findOneAndRemove({ token: req.body.token }).then((data) => {
+      // console.log(data);
+      if (data) {
+        res.json({ result: true, message: "Account well deleted" });
+      } else {
+        res.json({ result: false });
+      }
+    });
+  });
+});
 
-
-// //************ ajouter l historique  */ add historique
-// router.put("/historique", (req, res) => {
-//   //1. verifier si le token existe
-//   if (!checkBody(req.body, ["token"])) {
-//     res.json({ result: false, error: "Missing or empty fields" });
-//     return;
-//   }
-
-//   User.findOne({ token: req.body.token }).then((data) => {
-//     // console.log("user", data);
-//     Emotion.findById(req.body._id).then((emotion) => {
-//       // console.log("emotion", emotion);
-//       if (("emotion", emotion)) {
-//         User.updateOne(
-//           { token: req.body.token },
-//           { $push: { historique: { emotion: emotion._id, date: new Date() } } }
-//         ).then((data) => {
-//           res.json({ result: true, data: data });
-//         });
-//       } else {
-//         res.json({ result: false, error: "No emotion selected" });
-//       }
-//     });
-//   });
-// });
-
-// //************recuperer l historique d'un User */
-// router.get("/historique/:token", (req, res) => {
-//   if (!checkBody(req.params, ["token"])) {
-//     res.json({ result: false, error: "Missing or empty fields" });
-//     return;
-//   }
-
-//   User.findOne({ token: req.params.token }).then((data) => {
-//     if (data) {
-//       res.json({ result: true, historique: data.historique });
-//     } else {
-//       res.json({ result: false, historique: "No historique" });
-//     }
-//   });
-// });
-
-// //********** recuperer l'emotion d un historique*
-// router.get("/emotion/:_id", (req, res) => {
-//   if (!checkBody(req.params, ["_id"])) {
-//     res.json({ result: false, error: "Missing or empty fields" });
-//     return;
-//   }
-
-//   Emotion.findOne({ _id: req.params._id }).then((data) => {
-//     // console.log(data);
-//     if (data) {
-//       res.json({ result: true, data: data });
-//     } else {
-//       res.json({ result: false, error: "Emotion not found" });
-//     }
-//   });
-// });
-
-// //*********supprimer le compte d'un User******route Delete
-// router.delete("/", (req, res) => {
-//   //1. verifier si le token existe
-//   if (!checkBody(req.body, ["token", "username"])) {
-//     res.json({ result: false, error: "Cant`t delete your account" });
-//     return;
-//   }
-
-//   //2. rechercher si le token == token donnée
-//   User.findOne({ token: req.body.token }).then((user) => {
-//     if (user === null) {
-//       res.json({ result: false, error: "User not found" });
-//       return;
-//     }
-
-//     //3. supprimer par rapport a son token
-//     User.findOneAndRemove({ token: req.body.token }).then((data) => {
-//       // console.log(data);
-//       if (data) {
-//         res.json({ result: true, message: "Account well deleted" });
-//       } else {
-//         res.json({ result: false });
-//       }
-//     });
-//   });
-// });
 
 module.exports = router;
 

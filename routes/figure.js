@@ -23,5 +23,13 @@ router.get("/:type", (req, res) => {
   });
 });
 
+//afficher toutes les audios selon une recherche (targets)
+router.get("/search/:search", (req, res) => {
+  //1. afficher toutes les audios selon user id
+  Figure.find({ name: { $regex: new RegExp(req.params.search, "i") } }) // Trouver les audios aimés par l'utilisateur spécifié
+    .then((data) => {
+      res.json({ result: true, data });
+    });
+});
 
 module.exports = router;
